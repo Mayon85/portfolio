@@ -2287,27 +2287,13 @@ input, select, textarea {
 
 		@media screen and (max-width: 736px) {
 
-			.features section {
+			/* .features section {
 				padding: 2.5em 1.5em 0.1em 5.5em ;
-			}
+			} */
 
 				.features section .icon {
 					left: 1.5em;
 					top: 2em;
-				}
-
-		}
-
-		@media screen and (max-width: 480px) {
-
-			.features section {
-				padding: 2em 1.5em 0.1em 1.5em ;
-			}
-
-				.features section .icon {
-					left: 0;
-					position: relative;
-					top: 0;
 				}
 
 		}
@@ -3618,7 +3604,7 @@ input, select, textarea {
 
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
-		background: #253138;
+		background: #2C3A42;
 		cursor: default;
 		height: 100vh;
 		left: 0;
@@ -3855,14 +3841,14 @@ input, select, textarea {
 			}
 
 			#sidebar nav a:before {
-				background: #3c2c62;
+				background: #254C80;
 			}
 
 			#sidebar nav a:after {
-				background-image: -moz-linear-gradient(to right, #363c6a, #4a011e);
-				background-image: -webkit-linear-gradient(to right, #363c6a, #4a011e);
-				background-image: -ms-linear-gradient(to right, #363c6a, #4a011e);
-				background-image: linear-gradient(to right, #363c6a, #4a011e);
+				background-image: -moz-linear-gradient(to right, #254C80, #620e2f);
+				background-image: -webkit-linear-gradient(to right, #254C80, #620e2f);
+				background-image: -ms-linear-gradient(to right, #254C80, #620e2f);
+				background-image: linear-gradient(to right, #254C80, #620e2f);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -3972,6 +3958,16 @@ input, select, textarea {
 		background-position: top right;
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
+		position: relative;
+	}
+
+	.essai img {
+		z-index: 0;
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		height: 75%;
+		width: auto;
 	}
 
 		#intro p {
@@ -3990,6 +3986,10 @@ input, select, textarea {
 
 				#intro p {
 					font-size: 1em;
+				}
+
+				.essai img {
+
 				}
 
 			}
