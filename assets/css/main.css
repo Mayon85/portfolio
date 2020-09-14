@@ -3796,9 +3796,17 @@ input, select, textarea {
 
   .realisations div .filterDiv { margin: 20px;}
 
+  .inner-parcours {
+	width:70%; 
+	margin: auto;"
+  }
+
   @media screen and (max-width: 640px) {
 	  .realisations div {width: 100%;}
+	  .inner-parcours {width: 100%;}
   }
+
+
 
 
   
