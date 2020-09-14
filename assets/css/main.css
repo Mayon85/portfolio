@@ -3796,5 +3796,9 @@ input, select, textarea {
 
   .realisations div .filterDiv { margin: 20px;}
 
+  @media screen and (max-width: 640px) {
+	  .realisations div {width: 100%;}
+  }
+
 
   
