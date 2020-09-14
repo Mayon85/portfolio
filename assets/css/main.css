@@ -2065,7 +2065,9 @@ input, select, textarea {
 				opacity: 1;
 				height:45px;
 				width:45px;
-				
+				display: flex;
+				justify-content: center;
+				align-items: center;
 			}
 
 			.features section:nth-child(1) .icon {
