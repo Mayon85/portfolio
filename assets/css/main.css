@@ -1,11 +1,5 @@
 @import url(fontawesome-all.min.css);
 
-/*
-	Hyperspace by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -192,6 +186,7 @@ input, select, textarea {
 
 	h1 {
 		font-size: 2.75em;
+		font-family: 'Cinzel Decorative', cursive;
 	}
 
 		h1.major, h1.major2 {
@@ -3800,7 +3795,7 @@ input, select, textarea {
 
   .inner-parcours {
 	width:70%; 
-	margin: auto;"
+	margin: auto;
   }
 
   @media screen and (max-width: 640px) {
